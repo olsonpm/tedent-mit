@@ -1,0 +1,38 @@
+{
+  "name": "@olsonpm/tedent-mit",
+  "version": "0.1.0",
+  "description": "normalizes template string indentation like you'd expect",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/olsonpm/tedent-mit.git"
+  },
+  "author": "Phil Olson <philipolson@pm.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/olsonpm/tedent-mit/issues"
+  },
+  "homepage": "https://github.com/olsonpm/tedent-mit",
+  "devDependencies": {
+    "@olsonpm/eslint-config-personal-mit": "0.1.0",
+    "chai": "^4.1.2",
+    "eslint": "^3.19.0",
+    "mocha": "^5.2.0",
+    "prettier": "^1.13.7"
+  },
+  "dependencies": {},
+  "eslintConfig": {
+    "extends": "@olsonpm/personal-mit",
+    "env": {
+      "mocha": true
+    }
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "semi": false
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
